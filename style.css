@@ -1,13 +1,17 @@
-.btn-outline-github {
-    color: #28a745;
-    background-color: #f8f9fa;
-    background-image: none;
-    border-color: #28a745;
+body{
+    background-image: url(white_background.jpeg);
+    background-repeat: repeat-y;
+    background-size: 100%;
 }
 
-.btn-outline-linkedin {
-    color: #007bff;
-    background-color: #f8f9fa;
-    background-image: none;
-    border-color: #007bff;
+.card{
+    width: 500px;
+}
+
+.card-img-top {
+    width: 200px;
+}
+
+.portfolio-img{
+    width: 300px;
 }
