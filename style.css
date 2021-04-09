@@ -4,14 +4,32 @@ body{
     background-size: 100%;
 }
 
-.card{
-    width: 500px;
-}
-
 .card-img-top {
-    width: 200px;
+    width: auto;
 }
 
 .portfolio-img{
-    width: 300px;
+    width: auto;
+}
+
+.portfolio-img:hover{
+    opacity:0.3;
+}
+
+.blocktext{
+    height: 35em;
+    position: relative;
+}
+.blocktext p{
+    font-size: 150%;
+    margin:0;
+    position:absolute;
+    top:50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.center-contact{
+    text-align: center;
 }
