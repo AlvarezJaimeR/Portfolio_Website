@@ -1,7 +1,13 @@
 body{
-    background-image: url(white_background.jpeg);
+    background-image: url(Plain_Background.png);
     background-repeat: repeat-y;
     background-size: 100%;
+}
+
+.about-me-picture{
+    width: 400px;
+    border-radius: 500px;
+    margin-left:3%;
 }
 
 .card-img-top {
