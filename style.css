@@ -1,19 +1,32 @@
-body{
+/* body{
     background-image: url(Plain_Background.png);
     background-repeat: repeat-y;
     background-size: 100%;
-}
+} */
 
 .about-me-picture{
     width: 400px;
     border-radius: 500px;
-    margin-left:3%;
+    margin-right: -50%;
+}
+.about-info{
+    height: auto;
+    position: relative;
+}
+
+.about-info p{
+    margin:0;
+    position:absolute;
+    top:50%;
+    transform: translate(0, -50%);
 }
 
 .card-img-top {
     width: auto;
 }
-
+.bigger{
+    font-size: 170%;
+}
 .portfolio-img{
     width: auto;
 }
