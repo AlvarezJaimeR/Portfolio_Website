@@ -1,8 +1,8 @@
-/* body{
-    background-image: url(Plain_Background.png);
+body{
+    background-image: url(gray_background.png);
     background-repeat: repeat-y;
     background-size: 100%;
-} */
+}
 
 .about-me-picture{
     width: 400px;
