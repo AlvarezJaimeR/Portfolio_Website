@@ -22,7 +22,7 @@ body{
 }
 
 .card-img-top {
-    width: auto;
+    width: 300px;
 }
 .bigger{
     font-size: 170%;
