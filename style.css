@@ -25,6 +25,10 @@ body{
     transform: translate(0, -50%);
 }
 
+.about-me-section{
+    height: 40em;
+}
+
 .card-img-top {
     width: 300px;
 }
@@ -39,18 +43,11 @@ body{
     opacity:0.3;
 }
 
-.blocktext{
-    height: 50em;
-    position: relative;
-}
 .blocktext p{
-    font-size: 150%;
-    margin:0;
     position:absolute;
-    top:50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%)
+    top:100px;
+    display:grid;
+    place-content: center;
 }
 
 .center-contact{
